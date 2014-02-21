@@ -1,0 +1,72 @@
+Script started on Tue 18 Feb 2014 02:40:46 AM CST
+]0;dominique@dominique-VirtualBox: ~/rails_projects/sample_appdominique@dominique-VirtualBox:~/rails_projects/sample_app$ rails c
+No command 'railsc' found, did you mean:
+ Command 'rails' from package 'ruby-railties-3.2' (universe)
+ Command 'rails' from package 'rails' (universe)
+railsc: command not found
+]0;dominique@dominique-VirtualBox: ~/rails_projects/sample_appdominique@dominique-VirtualBox:~/rails_projects/sample_app$ rails console
+railsconsole: command not found
+]0;dominique@dominique-VirtualBox: ~/rails_projects/sample_appdominique@dominique-VirtualBox:~/rails_projects/sample_app$ rails  console
+Loading development environment (Rails 4.0.2)
+2.0.0-p353 :001 > def string_shuffle(s)
+2.0.0-p353 :002?>   s.split('').shuffle.join('')
+2.0.0-p353 :003?>   end
+ => nil 
+2.0.0-p353 :004 > string_shuffle("foobar")
+ => "foroba" 
+2.0.0-p353 :005 > class String
+2.0.0-p353 :006?>   def shuffle
+2.0.0-p353 :007?>     self.split()')')[C.shuffle.join()')')
+2.0.0-p353 :008?>     end
+2.0.0-p353 :009?>   end
+ => nil 
+2.0.0-p353 :010 > "foobar".shufflee[K[Ke
+ => "bfoora" 
+2.0.0-p353 :011 > peros[K[Kson1 = {}:}f}i}r}s}t} }=}>} }"}D}o}m}i}n}i}q}u}e}"},} }:}l}a}s}t}=}>} }"}T}a}n} [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"}}
+ => {:first=>"Dominique", :last=>"Tan"} 
+2.0.0-p353 :012 > person1 = {:first => "Dominique", :last=> "Tan"}}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"} [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P}
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"} [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pa"}
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"}L"}e"} [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce"}}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CSDominique", :last=> "Lee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CeDominique", :last=> "Lee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CrDominique", :last=> "Lee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CeDominique", :last=> "L[Ce"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CnDominique", :last=> "Lee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CaDominique", :last=> "Lee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cominique", :last=> "[1PLee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cminique", :last=> "L[1Pee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinique", :last=> "Le[C[1P"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnique", :last=> "Lee[1P"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cique", :last=> "Lee"[1P}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cque", :last=> "Lee"}[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cue", :last=> "Lee"} [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTLee"}}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CaLee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CnLee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cee"[1P}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"}[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"} [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTSerenaue", :last=> "Tan"}}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CjSerenaue", :last=> "Tan"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CiSerenaue", :last=> "Tan"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CnSerenaue", :last=> "Tan"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cerenaue", :last=> "Tan[1P"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crenaue", :last=> "Tan"[1P}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenaue", :last=> "Tan"}[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnaue", :last=> "Tan"} [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P
+ => {:first=>"Tjin", :last=>"Tan"} 
+2.0.0-p353 :013 > person1 = {:first => "Tjin", :last=> "Tan"}Dominique", :last=> "Tan"}}
+ => {:first=>"Dominique", :last=>"Tan"} 
+2.0.0-p353 :014 > person1 = {:first => "Dominique", :last=> "Tan"}}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PTjin", :last=> "Tan"}
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2
+ => {:first=>"Tjin", :last=>"Tan"} 
+2.0.0-p353 :015 > person2 = {:first => "Tjin", :last=> "Tan"}LTan"}eTan"}eTan"}[1Pan"}[1Pn"}[1P"}[C[C[1@S[1@e[1@reTjin", :last=> "Lee"} [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CnTjin", :last=> "Lee"}}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CaTjin", :last=> "Lee"}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjin", :last=> "Lee"}[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cin", :last=> "Lee"} [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@3[1P
+ => {:first=>"Serena", :last=>"Lee"} 
+2.0.0-p353 :016 > params[]:]f]a]t]h]e]r][C = person2
+NameError: undefined local variable or method `params' for main:Object
+	from (irb):16
+	from /home/dominique/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/gems/railties-4.0.2/lib/rails/commands/console.rb:90:in `start'
+	from /home/dominique/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/gems/railties-4.0.2/lib/rails/commands/console.rb:9:in `start'
+	from /home/dominique/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/gems/railties-4.0.2/lib/rails/commands.rb:62:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+2.0.0-p353 :017 > parame[K[K[Kams = {}
+ => {} 
+2.0.0-p353 :018 > params = {}[:father] = person2
+ => {:first=>"Tjin", :last=>"Tan"} 
+2.0.0-p353 :019 > params[:father] = person2[C[C32[K[C[1@m[1@o[1@t[1@h[1@e[1@r[1P[1P[1P[1P[1P[1P
+ => {:first=>"Serena", :last=>"Lee"} 
+2.0.0-p353 :020 > params[:mother] = person3[K1[C[1@c[1@h[1@i[1@l[1@d[1P[1P[1P[1P[1P[1P
+ => {:first=>"Dominique", :last=>"Tan"} 
+2.0.0-p353 :021 > params[]:]f]a]t]h]e]r][C[]:]f]i]r]s]t]
+ => "Tjin" 
+2.0.0-p353 :022 > params[:father][:last]
+ => "Tan" 
+2.0.0-p353 :023 > params[:mother][:first]
+ => "Serena" 
+2.0.0-p353 :024 > params[:mother][:last]
+ => "Lee" 
+2.0.0-p353 :025 > params[:child][:first]
+ => "Dominique" 
+2.0.0-p353 :026 > params[:child][:last]
+ => "Tan" 
+2.0.0-p353 :027 > 
+]0;dominique@dominique-VirtualBox: ~/rails_projects/sample_appdominique@dominique-VirtualBox:~/rails_projects/sample_app$ exit
+exit
+
+Script done on Tue 18 Feb 2014 02:56:25 AM CST
