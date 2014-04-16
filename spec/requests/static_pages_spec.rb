@@ -20,18 +20,31 @@ describe "Static pages" do
     describe "for signed-in users" do
       let(:user) { FactoryGirl.create(:user) }
       before do
-        FactoryGirl.create(:micropost, user: user, content: "Lorem ipsum")
-        FactoryGirl.create(:micropost, user: user, content: "Dolor sit amet")
+        31.times { FactoryGirl.create(:micropost, user: user) }
         sign_in user
         visit root_path
       end
 
+      after { user.microposts.delete_all }
+
+      #it "should render the user's feed" do
+      #  user.feed.each do |item|
+      #    expect(page).to have_selector("li##{item.id}", text: item.content)
+      #  end
+      #end
+
+      it "should have micropost count and pluralize" do
+        page.should have_content('31 microposts')
+      end
+
       it "should render the user's feed" do
-        user.feed.each do |item|
-          expect(page).to have_selector("li##{item.id}", text: item.content)
+        user.feed.paginate(page: 1).each do |item|
+        page.should have_selector("li##{item.id}", text: item.content)
         end
       end
+      
     end
+
   end
 
   describe "Help page" do
