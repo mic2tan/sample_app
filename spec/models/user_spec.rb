@@ -30,6 +30,27 @@ describe User do
   it { should be_valid }
   it { should_not be_admin }
 
+  describe "relationship associations" do
+    let(:other_user) { FactoryGirl.create(:user) }
+    before do
+      @user.save
+      @user.follow!(other_user)
+      other_user.follow!(@user)
+    end
+
+    it "should destroy associated relationships" do
+      relationships = @user.relationships
+      @user.destroy
+      relationships.should be_empty
+    end
+
+    it "should destroy associated reverse relationships" do
+      reverse_relationships = @user.reverse_relationships
+      @user.destroy
+      reverse_relationships.should be_empty
+    end
+  end
+
   describe "with admin attribute set to 'true'" do
     before do
       @user.save!

@@ -1,0 +1,71 @@
+b79c9df HEAD@{0}: reset: moving to HEAD@{1}
+f66d61e HEAD@{1}: checkout: moving from folllowing-users to master
+b79c9df HEAD@{2}: commit: Add user following
+74c1a6c HEAD@{3}: commit: 11.40 working
+0c043f0 HEAD@{4}: commit: 11.2.3 working
+f66d61e HEAD@{5}: checkout: moving from master to folllowing-users
+f66d61e HEAD@{6}: commit: Ch10 complete, signout bug fixed
+498bbe6 HEAD@{7}: checkout: moving from master to master
+498bbe6 HEAD@{8}: commit: Chapter 10 complete
+8e2e8bc HEAD@{9}: commit: Ch10 exercises 12567
+ad6be55 HEAD@{10}: merge user-microposts: Fast-forward
+734ae61 HEAD@{11}: checkout: moving from user-microposts to master
+ad6be55 HEAD@{12}: commit: Add user microposts
+734ae61 HEAD@{13}: checkout: moving from master to user-microposts
+734ae61 HEAD@{14}: checkout: moving from master to master
+734ae61 HEAD@{15}: commit: CHAPTER NINE COMPLETE
+d5a3d0e HEAD@{16}: checkout: moving from master to master
+d5a3d0e HEAD@{17}: commit: Ch9 complete
+b5faab9 HEAD@{18}: checkout: moving from master to master
+b5faab9 HEAD@{19}: merge updating-users: Fast-forward
+a9689cc HEAD@{20}: checkout: moving from updating-users to master
+b5faab9 HEAD@{21}: commit: Finish user edit, update, index, and destroy actions
+a9689cc HEAD@{22}: checkout: moving from master to updating-users
+a9689cc HEAD@{23}: checkout: moving from master to master
+a9689cc HEAD@{24}: commit: Ch8 complete
+1bc1b7b HEAD@{25}: checkout: moving from master to master
+1bc1b7b HEAD@{26}: commit: Finish sign in
+962b686 HEAD@{27}: merge sign-in-out: Fast-forward
+585d162 HEAD@{28}: checkout: moving from sign-in-out to master
+962b686 HEAD@{29}: commit: Finish sign in
+585d162 HEAD@{30}: checkout: moving from master to sign-in-out
+585d162 HEAD@{31}: commit: Chapter 7 complete
+8b50137 HEAD@{32}: checkout: moving from master to master
+8b50137 HEAD@{33}: commit: Finish user sign up
+ba60279 HEAD@{34}: commit: Add SLL in production
+0db69c5 HEAD@{35}: checkout: moving from sign-up2 to master
+649a848 HEAD@{36}: commit: Finish user signup
+0db69c5 HEAD@{37}: checkout: moving from master to sign-up2
+0db69c5 HEAD@{38}: checkout: moving from master to master
+0db69c5 HEAD@{39}: checkout: moving from sign-up to master
+0db69c5 HEAD@{40}: checkout: moving from master to sign-up
+0db69c5 HEAD@{41}: checkout: moving from master to master
+0db69c5 HEAD@{42}: checkout: moving from master to master
+0db69c5 HEAD@{43}: checkout: moving from master to master
+0db69c5 HEAD@{44}: commit: Ch6 Make a basic User model (including secure passwords)
+2eb491e HEAD@{45}: merge modeling-users: Fast-forward
+ef438b1 HEAD@{46}: checkout: moving from modeling-users to master
+2eb491e HEAD@{47}: commit: Make a basic User model (including secure passwords)
+ef438b1 HEAD@{48}: checkout: moving from master to modeling-users
+ef438b1 HEAD@{49}: checkout: moving from master to master
+ef438b1 HEAD@{50}: checkout: moving from master to master
+ef438b1 HEAD@{51}: commit: Ch5 Extra Exercises Done
+6c28b0e HEAD@{52}: merge filling-in-layout: Fast-forward
+72ca51f HEAD@{53}: checkout: moving from filling-in-layout to master
+6c28b0e HEAD@{54}: commit: Finish layout and routes
+72ca51f HEAD@{55}: checkout: moving from master to filling-in-layout
+72ca51f HEAD@{56}: reset: moving to HEAD~1
+e2dfd12 HEAD@{57}: checkout: moving from filling-in-layout to master
+e2dfd12 HEAD@{58}: checkout: moving from master to filling-in-layout
+e2dfd12 HEAD@{59}: commit: Add afull_title helper
+72ca51f HEAD@{60}: commit: psql working
+5250b42 HEAD@{61}: checkout: moving from master to master
+5250b42 HEAD@{62}: checkout: moving from master to master
+5250b42 HEAD@{63}: commit: Finish static pages
+3e45b44 HEAD@{64}: merge static-pages: Fast-forward
+59a18e5 HEAD@{65}: checkout: moving from static-pages to master
+3e45b44 HEAD@{66}: commit: Finish static pages
+5912c72 HEAD@{67}: commit: Add a Static Pages controller
+59a18e5 HEAD@{68}: checkout: moving from master to static-pages
+59a18e5 HEAD@{69}: commit: Improve the README
+19aea2d HEAD@{70}: commit (initial): Initial commit
